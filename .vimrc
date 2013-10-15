@@ -41,17 +41,4 @@ colors af
 
 set tabstop=4 shiftwidth=4 expandtab
 
-" Tab fait un Esc, Maj+Tab fait un Tab
-inoremap <Tab> <Esc>
-inoremap <S-Tab> <Tab>
- 
-" Même chose, mais en mode visuel
-vnoremap <Tab> <Esc>
-vnoremap <S-Tab> <Tab>
-
-inoremap <C-c> <Left>
-inoremap <C-t> <Down>
-inoremap <C-s> <Up>
-inoremap <C-r> <Right>
-
 filetype plugin on
