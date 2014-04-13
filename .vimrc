@@ -1,7 +1,4 @@
-if !empty(system("setxkbmap -print|grep bepo"))
-    source ~/.vimrc.bepo
-endif
-
+source ~/.vimrc.bepo
 
 if has("autocmd")
   autocmd! bufwritepost .vimrc source ~/.vimrc
