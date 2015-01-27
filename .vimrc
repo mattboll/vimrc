@@ -39,3 +39,7 @@ colors af
 set tabstop=4 shiftwidth=4 expandtab
 
 filetype plugin on
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
