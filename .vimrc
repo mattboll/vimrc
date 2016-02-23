@@ -43,3 +43,6 @@ filetype plugin on
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+"ctrlp
+set runtimepath^=~/.vim/bundle/ctrlp.vim
