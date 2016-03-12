@@ -2,15 +2,13 @@ source ~/.vimrc.bepo
 syntax on
 set background=dark
 set t_Co=256
-color mango
+colors mango
 
 if has("autocmd")
   autocmd! bufwritepost .vimrc source ~/.vimrc
 endif
 
 execute pathogen#infect()
-
-syntax on
 
 filetype plugin indent on
 
@@ -37,8 +35,6 @@ map <Leader>m <esc>:tabnext<CR>
 
 vnoremap < <gv
 vnoremap > >gv
-
-colors af
 
 set tabstop=4 shiftwidth=4 expandtab
 
