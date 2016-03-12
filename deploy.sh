@@ -9,3 +9,5 @@ echo couldn\'t get pathogen
 cp -r .vim ~
 cd ~/.vim/bundle
 vim -u NONE -c "helptags vim-fugitive/doc" -c q
+
+cp -r mango.vim/colors ~/.vim

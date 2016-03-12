@@ -1,4 +1,8 @@
 source ~/.vimrc.bepo
+syntax on
+set background=dark
+set t_Co=256
+color mango
 
 if has("autocmd")
   autocmd! bufwritepost .vimrc source ~/.vimrc
