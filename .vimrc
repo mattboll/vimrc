@@ -51,3 +51,7 @@ nnoremap <C-J> <C-W><C-J> "Ctrl-j to move down a split
 nnoremap <C-K> <C-W><C-K> "Ctrl-k to move up a split  
 nnoremap <C-L> <C-W><C-L> "Ctrl-l to move    right a split  
 nnoremap <C-H> <C-W><C-H> "Ctrl-h to move left a split
+set expandtab
+set laststatus=2
+
+let g:airline_theme="solarized"

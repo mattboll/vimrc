@@ -7,7 +7,7 @@ curl -Sso .vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim
 fetch -o .vim/autoload/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim || \
 echo couldn\'t get pathogen
 cp -r .vim ~
+cp -r mango.vim/colors ~/.vim
 cd ~/.vim/bundle
 vim -u NONE -c "helptags vim-fugitive/doc" -c q
 
-cp -r mango.vim/colors ~/.vim
