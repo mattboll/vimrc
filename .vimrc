@@ -3,6 +3,7 @@ syntax on
 set background=dark
 set t_Co=256
 colors mango
+set number
 
 if has("autocmd")
   autocmd! bufwritepost .vimrc source ~/.vimrc
