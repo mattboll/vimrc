@@ -72,3 +72,4 @@ let g:syntastic_check_on_wq = 0
 set nocompatible
 set hidden
 
+au BufRead,BufNewFile *.bal set filetype=c
