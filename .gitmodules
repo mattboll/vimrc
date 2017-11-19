@@ -48,10 +48,10 @@
 	url = https://github.com/bronson/vim-trailing-whitespace
 [submodule ".vim/bundle/syntastic"]
 	path = .vim/bundle/syntastic
-	url = git@github.com:scrooloose/syntastic.git
+	url = https://github.com/scrooloose/syntastic
 [submodule ".vim/bundle/vim-ctrlspace"]
 	path = .vim/bundle/vim-ctrlspace
 	url = https://github.com/vim-ctrlspace/vim-ctrlspace.git
 [submodule ".vim/bundle/vim-multiple-cursors"]
 	path = .vim/bundle/vim-multiple-cursors
-	url = git@github.com:terryma/vim-multiple-cursors.git
+	url = https://github.com/terryma/vim-multiple-cursors
